@@ -1,0 +1,71 @@
+  /*** START MAIN INDEX ***/
+
+  main {
+    margin-top: 21%;
+  }
+
+  /*** START ARTICLE LEFT ***/
+  .content{
+    display: flex;
+  }
+  
+  .content .left{
+    text-align: center;
+    width: 17%;
+    margin: 0 4%;
+  }
+  
+  .content .left p{
+    text-align: justify;
+    font-size: 25px;
+  }
+  
+  .content .bloque_apuntame{
+    background-color: lightgray;
+    padding-top: 1px;
+  }
+  
+  .content .bloque_apuntame .title{
+    text-align: center;
+  }
+  
+  .content .bloque_apuntame .bloque_apuntame-content{
+    padding: 0 5%;
+  }
+  
+  .content .bloque_apuntame a{
+    text-decoration: none;
+  }
+  
+  .content .bloque_apuntame a p{
+    background: #7ABA96;
+    margin: 0;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 20px;
+    color: black;
+  }
+
+  /*** END ARTICLE LEFT ***/
+
+  /*** RECETAS INDEX ***/
+  .content .row {
+      display: flex;
+      flex-direction: row;
+  }
+  
+  .content .row a .titulo,
+  .content .row .fecha {
+      text-align: center;
+  }
+
+  .content .row .descripcion {
+    text-align: justify;
+  }
+
+  .content .row a {
+      width: 50%;
+      margin: 0 5%;
+  }
+  /***END RECETAS INDEX***/
+  /*** END MAIN ***/
